@@ -2,8 +2,8 @@ plugins {
     id 'org.jetbrains.intellij' version '0.3.1'
 }
 
-group 'serg-bloim.idea.rebase-guru'
-version '0.2.0-SNAPSHOT'
+group 'serg-bloim.idea.rebase-guru-lopin'
+version '0.1.1-SNAPSHOT'
 
 apply plugin: 'idea'
 apply plugin: 'org.jetbrains.intellij'
@@ -20,10 +20,11 @@ dependencies {
 }
 
 intellij {
-    version '2018.1.1'
+    version '2018.2.4'
     plugins 'git4idea' //Bundled plugin dependencies
     pluginName 'git-fixup'
-    publish {
-        pluginId 'rebase-guru'
-    }
+
+    /* publish {
+        pluginId 'rebase-guru-lopin'
+    } */
 }

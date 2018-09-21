@@ -1,7 +1,7 @@
 <idea-plugin>
-    <id>rebase-guru</id>
-    <name>rebase-guru</name>
-    <version>0.1.0</version>
+    <id>rebase-guru-lopin</id>
+    <name>rebase-guru-lopin</name>
+    <version>0.1.1</version>
     <vendor url="https://github.com/serg-bloim/idea-rebase-guru"/>
 
     <description><![CDATA[
@@ -11,6 +11,13 @@
     ]]></description>
 
     <change-notes><![CDATA[
+    ]]>
+    </change-notes>
+    <change-notes><![CDATA[
+      Release 0.1.1: LOPIN - changed config to support IDEA 2018.2.4<br>
+      
+      <br>
+      
       Release 0.1.0: Initial release.<br>
       <i>Implemented enhancements:</i>
       <ul>
